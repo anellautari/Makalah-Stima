@@ -1,7 +1,7 @@
 # Wordle Solver – Brute Force vs Greedy Heuristik
 
 **Wordle Solver** adalah program sederhana yang dirancang untuk menyelesaikan permainan **Wordle** secara otomatis menggunakan dua pendekatan algoritmik berbeda: **Brute Force** dan **Greedy Heuristik**.  
-Permainan Wordle sendiri menantang pemain untuk menebak sebuah kata lima huruf dalam maksimal enam percobaan, dengan umpan balik warna hijau, kuning, dan abu-abu berdasarkan kecocokan tebakan.
+Permainan Wordle sendiri menantang pemain untuk menebak sebuah kata lima huruf dengan umpan balik warna hijau, kuning, dan abu-abu berdasarkan kecocokan tebakan.
 
 ## Deskripsi Algoritma
 
@@ -18,7 +18,7 @@ Strategi greedy memilih kata yang dianggap paling informatif di setiap langkah, 
    ```bash
    pip install nltk
     ```
-3. Jalankan program dengan perintah:
+3. Jalankan program pada folder root proyek dengan perintah :
    ```bash
    py src/main.py
    ```
